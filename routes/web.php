@@ -42,4 +42,8 @@ Route::get('/sach/theloai/{id}','App\Http\Controllers\ViduLayoutController@thelo
 Route::get('sach/chitiet/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
 
 
+
 Route::get('sach/chitiet3/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
+
+Route::get('sach/chitiet1/{id}','App\Http\Controllers\ViduLayoutController@chitiet');
+
